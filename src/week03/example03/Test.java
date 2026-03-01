@@ -23,9 +23,10 @@ public class Test {
 		okul.addStudent(s5);
 		okul.addStudent(s6);
 		okul.checkStatus();
-		// counterlı bi assert kafi githuba commitle
-		for (int i = 0;i<6;i++) {
-			//assert
+		
+		int counter =0;
+		for (int i = 0;i<okul.Students.size();i++) {
+			counter++;//bitmedi bitir
 			
 		}
 		
